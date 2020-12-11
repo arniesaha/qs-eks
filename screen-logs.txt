@@ -1,0 +1,105 @@
+ _            _             _   
+| |_ __ _ ___| | _____ __ _| |_ 
+| __/ _` / __| |/ / __/ _` | __|
+| || (_| \__ \   < (_| (_| | |_ 
+ \__\__,_|___/_|\_\___\__,_|\__|
+                                
+
+
+version 0.9.20
+[0;30;47m[INFO   ][0m : Linting passed for file: /Users/arnab/PersonalProjects/qs-eks/templates/master.template.yaml
+[0;30;43m[WARN   ][0m : ---
+[0;30;43m[WARN   ][0m : Linting detected issues in: /Users/arnab/PersonalProjects/qs-eks/submodules/quickstart-aws-vpc/templates/aws-vpc.template
+[0;30;43m[WARN   ][0m :     line 172 [2001] [Check if Parameters are Used] Parameter KeyPairName not used.
+[0;30;43m[WARN   ][0m :     line 177 [2001] [Check if Parameters are Used] Parameter NATInstanceType not used.
+[0;30;43m[WARN   ][0m :     line 420 [8001] [Check if Conditions are Used] Condition GovCloudCondition not used
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/screen-logs.txt
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/ci/workshop_input.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/ci/taskcat.yml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/NOTICE.txt
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/LICENSE.txt
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-sa-east-1.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-4az.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-defaults.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-4az-public.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-3az-public.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-4az-complete.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-3az-complete.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/taskcat.yml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-public.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-3az.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-dedicated.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/ci/aws-vpc-complete.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/generated/regions/index.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/generated/parameters/index.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/generated/services/metadata.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/generated/services/index.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/images/cfn_outputs.png
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/images/aws-quickstart-graphic.png
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/images/architecture_diagram.png
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/faq_troubleshooting.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/product_description.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/_settings.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/deployment_options.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/service_limits.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/architecture.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/additional_info.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/regions.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/licenses.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/deploy_steps.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/specialized_knowledge.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/overview_target_and_usage.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/docs/partner_editable/pre-reqs.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/.github/workflows/master-docs-build.yml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/templates/aws-vpc.template
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/submodules/quickstart-aws-vpc/templates/aws-vpc.template.yaml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/templates/workshop.template.yaml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/templates/master.template.yaml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-eks-p0jzergf/qs-eks/templates/workload.template.yaml
+[0;30;47m[INFO   ][0m : ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+[0;30;47m[INFO   ][0m : ┣ region: us-west-1
+[0;30;47m[INFO   ][0m : ┗ status: [0;30;47mCREATE_FAILED [0m
+[0;30;47m[INFO   ][0m : Reporting on arn:aws:cloudformation:us-west-1:795157084048:stack/tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480/0e5c2110-3baa-11eb-bdeb-062f8b872c19
+[0;30;47m[INFO   ][0m : Deleting stack: arn:aws:cloudformation:us-west-1:795157084048:stack/tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480/0e5c2110-3baa-11eb-bdeb-062f8b872c19
+[0;30;47m[INFO   ][0m : ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+[0;30;47m[INFO   ][0m : ┣ region: us-west-1
+[0;30;47m[INFO   ][0m : ┗ status: [0;30;47mOUT_OF_ORDER_EVENT [0m
+[0;30;41m[ERROR  ][0m : One or more stacks failed tests: {'arn:aws:cloudformation:us-west-1:795157084048:stack/tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480/0e5c2110-3baa-11eb-bdeb-062f8b872c19': 'COMPLETE event not detected. Potential out-of-band action against the stack.'}
+Not in terminal, reprint now using normal build-in print function.
+
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
+         ┏ stack Ⓜ tCaT-qs-eks-default-268d3e194f09403e8fa0a1572ed1e480
+         ┣ region: us-west-1
+         ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
