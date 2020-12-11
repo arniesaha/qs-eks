@@ -1,0 +1,28 @@
+-----------------------------------------------------------------------------
+Region: us-west-1
+StackName: tCaT-qs-eks-default-4124109f72df485e879d2d000d2fea80
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [AdvancedConfigDefaultsStack,
+AccountSharedResources, VPCStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                     ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ----------------------------------------------------  ---------------------------------------------------------------------------------------------------------------------------------------------------
+2020-12-11 12:26:12.197000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-eks-default-4124109f72df485e879d2d000d2fea80  The following resource(s) failed to create: [AdvancedConfigDefaultsStack, AccountSharedResources, VPCStack].
+2020-12-11 12:26:10.895000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  AccountSharedResources                                S3 error: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+                                                                                                                                        For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+2020-12-11 12:26:10.864000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  VPCStack                                              S3 error: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+                                                                                                                                        For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+2020-12-11 12:26:10.681000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  AdvancedConfigDefaultsStack                           S3 error: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+                                                                                                                                        For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+2020-12-11 12:26:10.418000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  AccountSharedResources
+2020-12-11 12:26:10.335000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2020-12-11 12:26:10.032000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  AdvancedConfigDefaultsStack
+2020-12-11 12:26:00.715000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-eks-default-4124109f72df485e879d2d000d2fea80  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Friday, 11. December 2020 05:55PM
+-----------------------------------------------------------------------------
+
